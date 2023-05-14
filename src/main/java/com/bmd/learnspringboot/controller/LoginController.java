@@ -23,6 +23,7 @@ import java.util.Optional;
 
 
 @RestController
+@CrossOrigin
 @RequestMapping("/student")
 public class LoginController {
     private final LoginService loginService;
